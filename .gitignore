@@ -1,4 +1,23 @@
-/.vscode
-/bin
-/build
-compile_commands.json
+# Ignore build files #
+######################
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.bin
+*.elf
+*.map
+
+# Ignore .v5code and .json, since VexCode messes with those at its whimsy #
+###########################################################################
+
+*.v5code
+*.json
+
+# Ignore OS-generated files #
+#############################
+
+.DS_Store
